@@ -14,14 +14,12 @@ Welcome to the Electronic Device Management System! This C++ project is designed
 
 ## Introduction
 
-The Electronic Device Management System is a sophisticated tool that empowers users to efficiently store and retrieve data related to electronic devices, mobile phones, and GPUs. With its intuitive interface and robust backend, managing device information has never been easier.
-
+This is a basic Electronic Device Management system that empowers users to efficiently give inputs and store and display data related to electronic devices, mobile phones, and GPUs. 
 ## Key Features
 
 - **Device Management:** Store and display details of electronic devices, mobile phones, and GPUs.
 - **Modular Design:** Utilize object-oriented programming principles for code modularity and reusability.
-- **Data Persistence:** Save device information to files for easy retrieval and future reference.
-- **User-Friendly Interface:** Simple and intuitive interface for seamless interaction.
+- **User-Friendly Interface:** Simple and easy interface.
 
 ## Usage
 
@@ -50,7 +48,6 @@ The project extensively employs the following OOP concepts:
 
 - **Encapsulation:** Data members of classes are encapsulated and access to them is controlled through public member functions. This ensures data integrity, hides implementation details, and facilitates code maintenance and debugging.
 
-- **Polymorphism:** Polymorphism is achieved through the use of virtual functions. For example, the `toString()` function is declared as virtual in the ElectronicDevice class and overridden in derived classes (Mobile and GPU), allowing for dynamic method binding and enabling different implementations based on object types.
 
 ## Why OOP and Inheritance?
 
@@ -64,10 +61,9 @@ The decision to employ OOP principles, particularly inheritance, in this project
 
 - **Flexibility and Extensibility:** Inheritance enables the system to accommodate new types of electronic devices with minimal modifications. New classes can be derived from the base class, inheriting existing functionality while allowing for customization as needed.
 
-## Contributing
-
-Contributions to the project are highly encouraged! If you'd like to contribute, please fork the repository, implement your changes, and submit a pull request. Together, we can enhance the Electronic Device Management System and make it even more powerful and versatile.
+## Header Files
+Separating code into header (.h) and source (.cpp) files offers numerous benefits. Header files contain class declarations and function prototypes, promoting encapsulation and providing interfaces for other parts of the program. Source files, on the other hand, contain the implementation details, allowing for cleaner and more manageable code organization. This separation enhances code clarity, facilitates reuse, and supports modular design, ultimately improving maintainability and scalability.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+ Feel free to use and modify the code.
