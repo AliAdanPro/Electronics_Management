@@ -5,7 +5,6 @@ Welcome to the Electronic Device Management System! This C++ project is designed
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Features](#key-features)
-- [Usage](#usage)
 - [File Structure](#file-structure)
 - [Object-Oriented Programming Concepts](#object-oriented-programming-concepts)
 - [Why OOP and Inheritance?](#why-oop-and-inheritance)
