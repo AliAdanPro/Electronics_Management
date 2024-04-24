@@ -21,15 +21,6 @@ This is a basic Electronic Device Management system that empowers users to effic
 - **Modular Design:** Utilize object-oriented programming principles for code modularity and reusability.
 - **User-Friendly Interface:** Simple and easy interface.
 
-## Usage
-
-To utilize the system, follow these simple steps:
-
-1. Clone the repository to your local machine.
-2. Compile the source files using a C++ compiler.
-3. Run the compiled executable.
-4. Follow the on-screen prompts to perform desired actions such as storing or displaying device data.
-
 ## File Structure
 
 The repository structure is organized as follows:
